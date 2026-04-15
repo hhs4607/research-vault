@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reading Tracker"
+  short_description: "Maintain the literature reading tracker in Obsidian"
+  default_prompt: "Use this skill to update or report progress in 99-meta/reading-tracker.md and related base views."

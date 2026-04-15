@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Dive"
+  short_description: "Expand a note through structured discussion and synthesis"
+  default_prompt: "Use this skill to explore a vault note in depth, surface implications, and append a deep-dive section."

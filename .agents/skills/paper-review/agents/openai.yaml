@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Review"
+  short_description: "Review a Zotero paper and save an Obsidian note"
+  default_prompt: "Use this skill to review a paper from Zotero, DOI, URL, or an existing vault note and save a structured review note."

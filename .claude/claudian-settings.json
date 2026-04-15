@@ -1,0 +1,82 @@
+{
+  "userName": "",
+  "enableBlocklist": true,
+  "allowExternalAccess": true,
+  "blockedCommands": {
+    "unix": [
+      "rm -rf",
+      "chmod 777",
+      "chmod -R 777"
+    ],
+    "windows": [
+      "del /s /q",
+      "rd /s /q",
+      "rmdir /s /q",
+      "format",
+      "diskpart",
+      "Remove-Item -Recurse -Force",
+      "Remove-Item -Force -Recurse",
+      "Remove-Item -r -fo",
+      "Remove-Item -fo -r",
+      "Remove-Item -Recurse",
+      "Remove-Item -r",
+      "ri -Recurse",
+      "ri -r",
+      "ri -Force",
+      "ri -fo",
+      "rm -r -fo",
+      "rm -Recurse",
+      "rm -Force",
+      "del -Recurse",
+      "del -Force",
+      "erase -Recurse",
+      "erase -Force",
+      "rd -Recurse",
+      "rmdir -Recurse",
+      "Format-Volume",
+      "Clear-Disk",
+      "Initialize-Disk",
+      "Remove-Partition"
+    ]
+  },
+  "permissionMode": "normal",
+  "model": "opus[1m]",
+  "thinkingBudget": "medium",
+  "effortLevel": "max",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "enableChrome": true,
+  "enableBangBash": true,
+  "enableOpus1M": true,
+  "enableSonnet1M": true,
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "allowedExportPaths": [
+    "~/Desktop",
+    "~/Downloads"
+  ],
+  "persistentExternalContextPaths": [],
+  "environmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "en",
+  "claudeCliPath": "",
+  "claudeCliPathsByHost": {
+    "DESKTOP-S893HK7": "C:\\Users\\EMDOL\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\cli.js"
+  },
+  "loadUserClaudeSettings": true,
+  "lastClaudeModel": "opus[1m]",
+  "lastCustomModel": "",
+  "lastEnvHash": "",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": false,
+  "hiddenSlashCommands": []
+}

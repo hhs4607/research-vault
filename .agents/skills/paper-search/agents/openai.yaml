@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Search"
+  short_description: "Search Zotero and summarize matching papers"
+  default_prompt: "Use this skill to search the local Zotero library by title, author, collection, or tag and return brief Korean summaries."

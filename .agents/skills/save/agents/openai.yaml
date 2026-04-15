@@ -1,0 +1,4 @@
+interface:
+  display_name: "Save to Vault"
+  short_description: "Save external content into the Research Vault"
+  default_prompt: "Use this skill to save URLs or raw text into 01-inbox with frontmatter, tags, and related note suggestions."

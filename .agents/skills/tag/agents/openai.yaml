@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tag Manager"
+  short_description: "Maintain the vault tag taxonomy and reconcile note tags"
+  default_prompt: "Use this skill to inspect, add, rename, merge, or audit tags against the vault taxonomy."

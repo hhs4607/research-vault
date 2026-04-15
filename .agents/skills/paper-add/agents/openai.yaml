@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Add"
+  short_description: "Find and add a paper to Zotero"
+  default_prompt: "Use this skill to resolve a DOI or title, download a PDF when possible, and add the paper to the local Zotero library."

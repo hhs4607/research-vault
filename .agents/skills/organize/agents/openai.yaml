@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize Note"
+  short_description: "Classify a note into PARA and update related indices"
+  default_prompt: "Use this skill to classify, rename, move, and relink notes within the Research Vault PARA structure."

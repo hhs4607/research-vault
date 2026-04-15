@@ -1,0 +1,136 @@
+# ============================================================
+# Research Vault — Git tracks ONLY configs + scripts
+# Obsidian Sync handles all .md notes + media (separate transport)
+# ============================================================
+# Decision: 2026-04-15
+# - Git repo scope: Python scripts, shell scripts, JSON configs only
+# - Obsidian Sync scope: all .md files, images, canvas, base, attachments
+# - Local only (neither): 08-raw/, kakao-archive, .obsidian/workspace*
+# ============================================================
+
+# ----------------------------------------
+# 1. All markdown — handled by Obsidian Sync
+# ----------------------------------------
+*.md
+
+# ----------------------------------------
+# 2. Images — handled by Obsidian Sync
+# ----------------------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.bmp
+*.tiff
+*.ico
+*.heic
+*.avif
+
+# ----------------------------------------
+# 3. Audio / Video
+# ----------------------------------------
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.m4a
+*.webm
+*.mkv
+
+# ----------------------------------------
+# 4. Documents / large binaries
+# ----------------------------------------
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.bib
+
+# ----------------------------------------
+# 5. Obsidian-specific file types
+# ----------------------------------------
+*.canvas
+*.base
+*.excalidraw
+
+# ----------------------------------------
+# 6. Raw data (large / personal — neither Git nor Sync)
+# ----------------------------------------
+08-raw/
+99-meta/kakao-daily/
+99-meta/mail-logs/
+99-meta/attachments/
+
+# ----------------------------------------
+# 7. Obsidian local state (user-specific)
+# ----------------------------------------
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/sync.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/main.js.map
+.obsidian/plugins/*/.DS_Store
+.obsidian/snippets/
+
+# ----------------------------------------
+# 7b. Claude Code local state
+# ----------------------------------------
+# user local permission cache (has personal paths)
+.claude/settings.local.json
+# conversation metadata (usage stats)
+.claude/sessions/
+.claude/cache/
+# empty codex markers — optional
+.codex
+.claude/skills/**/.codex
+
+# ----------------------------------------
+# 8. OS / IDE
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ----------------------------------------
+# 9. Python (skill scripts)
+# ----------------------------------------
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/*.egg-info/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# ----------------------------------------
+# 10. Temp / scratch / logs
+# ----------------------------------------
+*.tmp
+*.bak
+*.log
+*.partial
+/tmp-*
+lint-report-*
+bench-*
+.ingest.lock
+
+# ----------------------------------------
+# 11. Memory (user auto-memory and plans optional)
+# ----------------------------------------
+# memory/plans/  — uncomment if plans should be excluded

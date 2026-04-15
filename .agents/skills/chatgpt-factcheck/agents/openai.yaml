@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatGPT Factcheck"
+  short_description: "Verify ChatGPT research claims and save results to the vault"
+  default_prompt: "Use this skill to crawl a ChatGPT share link, verify cited claims, map findings to research notes, and save a structured fact-check note."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Vault Harness"
+  short_description: "Shared workflows and utilities for this Obsidian research vault"
+  default_prompt: "Use this skill when working inside the Research Vault with Zotero, Obsidian, PARA, tags, and paper workflows."
