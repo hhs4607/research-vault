@@ -10,8 +10,11 @@
 
 # ----------------------------------------
 # 1. All markdown — handled by Obsidian Sync
+#    EXCEPT: skill docs (SKILL.md, handoff) live with code
 # ----------------------------------------
 *.md
+!.claude/skills/**/*.md
+!.agents/skills/**/*.md
 
 # ----------------------------------------
 # 2. Images — handled by Obsidian Sync
